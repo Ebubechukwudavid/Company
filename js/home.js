@@ -111,7 +111,7 @@ window.addEventListener('scroll', function() {
                 setTimeout(() => {
                     menuItems.classList.remove('hide');
                     menuItems.style.visibility = 'hidden'; // Set visibility to hidden after animation
-                }, 500); // Match duration with animation time
+                }, 100); // Match duration with animation time
             } else {
                 menuItems.style.visibility = 'visible'; // Set visibility to visible before showing
                 menuItems.classList.add('show');
